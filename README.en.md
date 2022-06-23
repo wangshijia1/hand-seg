@@ -19,38 +19,38 @@
 #### 安装包：
 Torch,os,numpy,cv2,sys,PIL,tqdm,logging,shutil,sklearn,tensorboardX,random,time
 #### 目录结构描述：
-|——readme.md			//使用说明文档
-|——.idea			//配置文件
-|——checkpoint				//训练好的权重文件
-|——dataprepare            //数据准备
-	|——.pytest_cache       //缓存测试			
-	|——kflod.py            //采用k折交叉验证划分数据集
-|——test_file_create.py    //生成测试文件，将测试图片的所有图片名读取到txt文件中
-|——datasets          
-|——bladder.py          //对数据集进行预处理
-|——log                //日志文件，记录训练日志
-|——Loss               //各种损失函数的计算
-|——dice_loss.py
-|——focal_loss.py
-|——IoU_loss.py
-|——log_loss.py
-|——lovasz_softmax_loss.py
-|——ohem_loss.py
-|——weighted_wce_loss.py
-|——media
-|——Datasets         //数据集存放在此处
-|——networks            //各种网络模型
-|——base_model
-|——custom_modules
-|——sync_batchnorm
-|——PSPNet
-|——test
-|——result               //存放测试结果
-|——test_bladder.py          //测试程序
-|——train
-|——train_bladder.py           //训练程序
-|——validate
-|——result
-|——validate_bladder.py        //验证程序
-|——utils              //一些功能函数
-|——performance.py    //计算各项性能指标
+|——readme.md			//使用说明文档  <br />
+|——.idea			//配置文件<br />
+|——checkpoint				//训练好的权重文件<br />
+|——dataprepare            //数据准备<br />
+	|——.pytest_cache       //缓存测试 <br />			
+	|——kflod.py            //采用k折交叉验证划分数据集<br />
+|——test_file_create.py    //生成测试文件，将测试图片的所有图片名读取到txt文件中<br />
+|——datasets          <br />
+|——bladder.py          //对数据集进行预处理<br />
+|——log                //日志文件，记录训练日志<br />
+|——Loss               //各种损失函数的计算<br />
+|——dice_loss.py<br />
+|——focal_loss.py<br />
+|——IoU_loss.py<br />
+|——log_loss.py<br />
+|——lovasz_softmax_loss.py<br />
+|——ohem_loss.py<br />
+|——weighted_wce_loss.py<br />
+|——media<br />
+|——Datasets         //数据集存放在此处<br />
+|——networks            //各种网络模型<br />
+|——base_model<br />
+|——custom_modules<br />
+|——sync_batchnorm<br />
+|——PSPNet<br />
+|——test<br />
+|——result               //存放测试结果<br />
+|——test_bladder.py          //测试程序<br />
+|——train<br />
+|——train_bladder.py           //训练程序<br />
+|——validate<br />
+|——result<br />
+|——validate_bladder.py        //验证程序<br />
+|——utils              //一些功能函数<br />
+|——performance.py    //计算各项性能指标<br />
